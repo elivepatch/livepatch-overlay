@@ -1,0 +1,49 @@
+# elivepatch-overlay
+standard of elivepatch overlay
+
+overlay structure example:
+
+```
+elivepatch_version: 0.1
+
+- 4.18.1
+      - patch_id: 1
+        cve_id: CVE-2018-15572 
+        commit_id: f8a0aeefc2f6e1bfd6653fcc30453ce7e582fac8
+        repository: https://github.com/torvalds/linux
+        comment: x86/speculation: Protect against userspace-userspace spectreRSB
+      - patch_id: 2
+        cve_id: CVE-2018-15594
+        commit_id: b13b271933eea6161e741825487d6e73e800bedf 
+        repository: https://github.com/torvalds/linux
+        comment: x86/paravirt: Fix spectre-v2 mitigations for paravirt guests
+      - patch_id: 3
+        cve_id: CVE-2018-3620
+        commit_id: abf914eefa19098727455f11acd895c57621a822
+        repository: https://github.com/torvalds/linux
+        comment: x86/microcode: Allow late microcode loading with SMT disabled
+      - patch_id: 4
+        path: /local/path/meminfo_allcaps_change.patch
+        comment: Change VmallocChunk text to all caps
+        license: GPLv2
+- 4.18.2
+      - patch_id: 1
+        cve_id: CVE-2018-15572 
+        commit_id: f8a0aeefc2f6e1bfd6653fcc30453ce7e582fac8
+        repository: https://github.com/torvalds/linux
+        comment: x86/speculation: Protect against userspace-userspace spectreRSB
+      - patch_id: 2
+        cve_id: CVE-2018-15594
+        commit_id: b13b271933eea6161e741825487d6e73e800bedf 
+        repository: https://github.com/torvalds/linux
+        comment: x86/paravirt: Fix spectre-v2 mitigations for paravirt guests
+      - patch_id: 3
+        cve_id: CVE-2018-3620
+        commit_id: abf914eefa19098727455f11acd895c57621a822
+        repository: https://github.com/torvalds/linux
+        comment: x86/microcode: Allow late microcode loading with SMT disabled
+      - patch_id: 4
+        path: /local/path/meminfo_allcaps_change.patch
+        comment: Change VmallocChunk text to all caps
+        license: GPLv2
+ 
