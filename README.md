@@ -1,5 +1,7 @@
 # elivepatch-overlay
-standard of elivepatch overlay
+Open standard for livepatch/elivepatch patches management for compatibility on different vendors.
+
+For discussion of the standard open [issues](https://github.com/elivepatch/elivepatch-overlay/issues) on this repository.
 
 overlay structure example:
 
@@ -32,3 +34,11 @@ elivepatch_version: 0.1
         commit_id: f47e3431b15ae9cae8acc0fdf20fc083422c9f61
         repository: https://github.com/torvalds/linux
         comment: Bluetooth: hidp: buffer overflow in hidp_process_report
+```
+## Contributors
+
+See [brief biographies of the
+contributors](CONTRIBUTORS.md)
+to livepatch-overlay and [add
+yourself](/../../edit/master/CONTRIBUTORS.md) if
+you are a contributor.
