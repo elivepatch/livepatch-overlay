@@ -1,5 +1,5 @@
-# elivepatch-overlay
-Open standard for livepatch/elivepatch patches management for compatibility on different vendors.
+# livepatch-overlay
+Open standard for livepatch patches management for compatibility on different vendors.
 
 For discussion of the standard open [issues](https://github.com/elivepatch/elivepatch-overlay/issues) on this repository.
 
