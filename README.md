@@ -1,9 +1,13 @@
-# livepatch-overlay
+# Livepatch overlay
 Open standard for livepatch patches management for compatibility on different vendors.
+
+## Why
+We have differents livepatch services, each one with their own way of storing the livepatch patches.
+This can be optimized, giving the freedom to share and condivide livepatch patches repository with other users.
 
 For discussion of the standard open [issues](https://github.com/elivepatch/livepatch-overlay/issues) on this repository.
 
-overlay structure example:
+## livepatch-overlay structure example:
 
 ```
 livepatch_version: 0.1
