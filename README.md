@@ -1,12 +1,12 @@
 # livepatch-overlay
 Open standard for livepatch patches management for compatibility on different vendors.
 
-For discussion of the standard open [issues](https://github.com/elivepatch/elivepatch-overlay/issues) on this repository.
+For discussion of the standard open [issues](https://github.com/elivepatch/livepatch-overlay/issues) on this repository.
 
 overlay structure example:
 
 ```
-elivepatch_version: 0.1
+livepatch_version: 0.1
 
 - 4.18.1
       - patch_id: 1
