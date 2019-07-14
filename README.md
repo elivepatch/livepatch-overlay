@@ -8,6 +8,9 @@ This can be optimized, giving the freedom to share and condivide livepatch patch
 
 For discussion of the standard open [issues](https://github.com/elivepatch/livepatch-overlay/issues) on this repository.
 
+## How
+This open standard livepatch overlay can be used by [elivepatch-client](https://github.com/gentoo/elivepatch-client/) for producing livepatch objects.
+
 ## livepatch-overlay structure example:
 
 ```
