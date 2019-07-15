@@ -3,7 +3,7 @@ Open standard for livepatch patches management for compatibility on different ve
 
 ## Why
 We have differents livepatch services, each one with their own way of storing the livepatch patches.  
-This repository is trying to fix this by creating a open standard for storing and sharing livepatch patches in a standardized way.
+This repository is trying to fix this by creating a open standard for storing and sharing livepatch patches in a reusable way.
 This can be optimized, giving the freedom to share and condivide livepatch patches repository with other users.
 
 For discussion of the standard open [issues](https://github.com/elivepatch/livepatch-overlay/issues) on this repository.
